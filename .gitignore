@@ -1,2 +1,14 @@
 themes/hugo-profile/
 public/
+config.toml
+config.yaml
+config.json
+.vscode/
+node_modules/
+dist/
+build/
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.tmp

@@ -1,4 +1,4 @@
-# baseURL: https://rvqzs.github.io/rvqz.github.io
+# baseURL: https://rvqzs.github.io/
 baseURL: https://example.com
 languageCode: en-us
 title: Robert Viquez Santos
@@ -62,7 +62,7 @@ Menus:
 params:
   title: "Robert Viquez"
   description: "Text about my cool site"
-  staticPath: "themes\\hugo-profile\\static"  # The path to serve the static files from
+  # staticPath: "\\public\\css"  # The path to serve the static files from
   favicon: "/images/rv.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between

@@ -3,6 +3,9 @@ public/
 config.toml
 config.yaml
 config.json
+hugo.toml
+hugo.yaml
+hugo.json
 .vscode/
 node_modules/
 dist/

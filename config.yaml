@@ -181,7 +181,7 @@ params:
       
   # Experience
   experience:
-    enable: false
+    enable: true
     default: true
     items:
       - job: "USAC CIR Project Analyst"
@@ -197,7 +197,6 @@ params:
           name: "Featured Projects"
         content: "Developed tools and automation to improve efficiency, managed reports and compliance tasks, handled customer requests, and oversaw workflow processes in financial operations."
         image: "https://upload.wikimedia.org/wikipedia/commons/archive/1/15/20081007174540%213M_wordmark.svg"
-      
       - job: "Financial Ops Analyst"
         company: "World Fuel Services"
         companyUrl: "https://www.world-kinect.com/"

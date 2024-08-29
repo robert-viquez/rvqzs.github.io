@@ -26,14 +26,14 @@ Menus:
   main:
     - identifier: blog
       name: Blog
-      title: Blog posts
+      title: Blog
       url: /blogs
       weight: 2
-    # - identifier: about
-    #   name: About
-    #   title: About
-    #   url: /#about
-    #   weight: 1
+    - identifier: contact
+      name: Contact
+      title: Contact
+      url: /#contact
+      weight: 3
     # - identifier: projects
     #   name: Projects
     #   title: projects
@@ -128,7 +128,7 @@ params:
       disableEducation: true
       disableProjects: false
       disableAchievements: true
-      disableContact: false
+      disableContact: true
 
   # Hero
   hero:
@@ -209,7 +209,7 @@ params:
           url: "https://techcorp.com/projects"
           name: "Featured Projects"
         content: "Managed invoices, provided customer support, reconciled inventory for month-end close, resolved billing errors, and supported process improvements in the O2C department."
-        image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/World_Fuel_Services_logo.svg"
+        image: "https://media.licdn.com/dms/image/v2/D560BAQGJbo63_jloUw/company-logo_200_200/company-logo_200_200/0/1714136938104/world_fuel_services_logo?e=1732752000&v=beta&t=q5n_7oz5xS9wG346V0s4Ny2LZY2fbc5AVw-gtEjHaNM"
 
   # Education
   education:
@@ -344,25 +344,25 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "/blog"
       count: 3
       title: Recent Posts
       enable: 
       disableFeaturedImage: true
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/rvqzs
+      linkedin: https://linkedin.com/in/robert-viquez/
       # twitter: https://twitter.com
       # instagram: https://instagram.com
       # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
       enable: true
       content: "min read"
@@ -374,7 +374,7 @@ params:
   # For translations
   terms:
     read: "Read"
-    toc: "Table Of Contents"
+    toc: "Contents"
     copyright: "All rights reserved"
     pageNotFound: "Page not found"
     emailText: "Check out this site"

@@ -1,5 +1,4 @@
 baseURL: https://rvqzs.github.io/
-# baseURL: https://example.com
 languageCode: en-us
 title: Robert Viquez Santos
 theme: hugo-profile
@@ -63,7 +62,7 @@ params:
   title: "Robert Viquez"
   description: "Text about my cool site"
   # staticPath: "\\public\\css"  # The path to serve the static files from
-  favicon: "/images/rv.png"
+  favicon: "/images/logo1.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -114,15 +113,15 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # brandLogo: "https://avatars.githubusercontent.com/u/146051750?s=400&u=1cbe75533455ac3c4484eb686647e6bf50bdda9f&v=4" # Logo for the brand | default is the favicon variable
     showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Robert Viquez" # Brand name for the brand | default is the title variable
+    brandName: "  Robert Viquez" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
       showOnScrollUp : true
-    enableSeparator: false
+    enableSeparator: true
     menus:
       disableAbout: false
       disableExperience: true
@@ -135,12 +134,12 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Robert."
-    subtitle: "Just exploring technology"
-    content: "I'm systems engineering college student diving into different areas of software development, 
-              I'm currently focused on college and personal projects. 
-              My journey is just beginning, and I'm excited to keep growing and learning new technologies."
-    image: /img/logo1.png
+    title: "Robert"
+    subtitle: "I tinker with software and hardware to design tech solutions."
+    # content: "I experiment with and learn new software and hardware technologies to shape technology to my needs."
+    # content: "I explore and master software and hardware to tailor technology to my goals."
+    # content: "I discover and apply tech to build solutions with software and hardware."
+    image: "https://avatars.githubusercontent.com/u/146051750?s=400&u=1cbe75533455ac3c4484eb686647e6bf50bdda9f&v=4" 
     bottomImage:
       enable: true
     roundImage: true # Make hero image circular | default false
@@ -155,7 +154,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/rvqzs
         - icon: fab fa-linkedin
-          url: https://example.com
+          url: https://linkedin.com/in/robert-viquez/
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
@@ -164,24 +163,25 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/me.jpg"
+    image: "/images/logo1.png"
     content: |-
       I'm constantly exploring new technologies, working on projects that allow me to learn and grow. Whether it's coding or learning and experimenting with different tools and technologies.
 
       Always eager to expand my knowledge and apply what I've learned to real-world situations and projects. I'm excited about the opportunities ahead to further develop my skills and make meaningful contributions.
     skills:
       enable: true
-      title: "Here are a few things I'm playing around with:"
+      title: "Exploring these tools:"
       items:
-      - <i class="fab fa-python" style="color:#3776AB;"></i> Python
-      - <i class="fab fa-html5" style="color:#E34F26;"></i> HTML <i class="fab fa-css3-alt" style="color:#1572B6;"></i> CSS <i class="fab fa-js" style="color:#F7DF1E;"></i> JS
-      - <i class="fas fa-database" style="color:#FFCA28;"></i> SQL
-      - <i class="fab fa-git-alt" style="color:#F05032;"></i> Git
-      - <i class="fab fa-docker" style="color:#2496ED;"></i> Docker
-
+      - <img width="24" height="24" src="https://img.icons8.com/color/24/python--v1.png" alt="python--v1"/> Python
+      - <i class="fab fa-html5" style="color:#E34F26;"></i> HTML | <i class="fab fa-css3-alt" style="color:#1572B6;"></i> CSS | <i class="fab fa-js" style="color:#F7DF1E;"></i> JS
+      - <img width="24" height="24" src="https://img.icons8.com/color/24/my-sql.png" alt="my-sql"/> MySQL      
+      - <img width="24" height="24" src="https://img.icons8.com/color/24/git.png" alt="git"/> Git
+      - <img width="24" height="24" src="https://img.icons8.com/color/24/docker.png" alt="docker"/> Docker
+      - <img width="22" height="22" src="https://img.icons8.com/external-those-icons-flat-those-icons/22/external-Linux-logos-and-brands-those-icons-flat-those-icons.png" alt="external-Linux-logos-and-brands-those-icons-flat-those-icons"/> Linux
+      
   # Experience
   experience:
-    enable: true
+    enable: false
     default: true
     items:
       - job: "USAC CIR Project Analyst"
@@ -332,7 +332,7 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
+    title: "Reach out"
     content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
     btnName: Email me
     btnLink: mailto:hello@robertviquez.com
@@ -348,7 +348,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: 
       disableFeaturedImage: true
     socialNetworks:
       github: https://github.com

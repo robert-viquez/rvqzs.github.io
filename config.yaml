@@ -28,12 +28,12 @@ Menus:
       name: Blog
       title: Blog
       url: /blogs
-      weight: 2
+      weight: 3
     - identifier: contact
       name: Contact
       title: Contact
       url: /#contact
-      weight: 3
+      weight: 2
     # - identifier: projects
     #   name: Projects
     #   title: projects
@@ -60,7 +60,7 @@ Menus:
 
 params:
   title: "Robert Viquez"
-  description: "Text about my cool site"
+  description: "A space where I explore and document my journey in mastering various technologies, solving problems, and making computers do what I want."
   # staticPath: "\\public\\css"  # The path to serve the static files from
   favicon: "/images/logo1.png"
 
@@ -81,7 +81,7 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
+    disableThemeToggle: false
     # defaultTheme: "dark" # light
 
   font:

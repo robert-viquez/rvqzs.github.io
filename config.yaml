@@ -170,7 +170,7 @@ params:
       Always eager to expand my knowledge and apply what I've learned to real-world situations and projects. I'm excited about the opportunities ahead to further develop my skills and make meaningful contributions.
     skills:
       enable: true
-      title: "Exploring these tools:"
+      title: "Skills:"
       items:
       - <img width="24" height="24" src="https://img.icons8.com/color/24/python--v1.png" alt="python--v1"/> Python
       - <i class="fab fa-html5" style="color:#E34F26;"></i> HTML | <i class="fab fa-css3-alt" style="color:#1572B6;"></i> CSS | <i class="fab fa-js" style="color:#F7DF1E;"></i> JS
@@ -178,6 +178,7 @@ params:
       - <img width="24" height="24" src="https://img.icons8.com/color/24/git.png" alt="git"/> Git
       - <img width="24" height="24" src="https://img.icons8.com/color/24/docker.png" alt="docker"/> Docker
       - <img width="22" height="22" src="https://img.icons8.com/external-those-icons-flat-those-icons/22/external-Linux-logos-and-brands-those-icons-flat-those-icons.png" alt="external-Linux-logos-and-brands-those-icons-flat-those-icons"/> Linux
+      - <img width="22" height="22" src="fav.png" alt="Hugo"/> HUGO
       
   # Experience
   experience:
@@ -344,7 +345,7 @@ params:
 
   footer:
     recentPosts:
-      path: "/blog"
+      path: "/blogs"
       count: 3
       title: Recent Posts
       enable: 

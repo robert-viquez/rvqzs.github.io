@@ -1,11 +1,11 @@
 ---
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
-draft = true
-tags = []
-categories = []
-author = "Robert Viquez"
-description = ""
-featured_image = ""
-slug = ""
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+author:
+tags:
+image:
+video:
+description:
+toc: boolean
 ---

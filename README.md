@@ -10,6 +10,13 @@
 This repository contains the source code for my personal portfolio website. Built using **Hugo** and a [fork](https://github.com/rvqzs/hugo-profile) of the [**hugo-profile**](https://github.com/gurusabarish/hugo-profile) theme,
 this site showcases my projects, skills, and experiences. It serves as a platform to document my journey in technology, highlight my technical solutions, and connect with potential employers.
 
+
+<div style="text-align: center;">
+   <h3>Homepage</h3>
+  <img src="https://github.com/user-attachments/assets/6941110c-b084-4331-afba-b8d9e649b542" alt="Homepage Section" width="600"/>
+</div>
+
+---
 ## Technologies Used
 
 - [**Hugo**](https://gohugo.io/): Static site generator used for building the website

@@ -24,16 +24,16 @@ markup:
 
 Menus:
   main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog
-    #   url: /blogs
-    #   weight: 3
-    - identifier: contact
-      name: Contact
-      title: Contact
-      url: /#contact
-      weight: 2
+    # - identifier: contact
+    #   name: Contact
+    #   title: Contact
+    #   url: /#contact
+    #   weight: 2
+    - identifier: blog
+      name: Blog
+      title: Blog
+      url: /blogs
+      weight: 3
     # - identifier: projects
     #   name: Projects
     #   title: projects
@@ -62,7 +62,7 @@ params:
   title: "Robert Viquez"
   description: "A space where I explore and document my journey in mastering various technologies, solving problems, and making computers do what I want."
   # staticPath: "\\public\\css"  # The path to serve the static files from
-  favicon: "/images/logo1.png"
+  favicon: "https://res.cloudinary.com/dqyllgamr/image/upload/v1725591315/logo1-rounded_psnddy.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -72,7 +72,7 @@ params:
   # If you want to load dynamically responsive images from Cloudinary
   # This requires your images to be uploaded + hosted on Cloudinary
   # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
-  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+  cloudinary_cloud_name: "dqyllgamr"
 
   # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
@@ -115,7 +115,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "https://avatars.githubusercontent.com/u/146051750?s=400&u=1cbe75533455ac3c4484eb686647e6bf50bdda9f&v=4" # Logo for the brand | default is the favicon variable
     showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "  Robert Viquez" # Brand name for the brand | default is the title variable
+    brandName: "Robert Viquez" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -128,7 +128,7 @@ params:
       disableEducation: true
       disableProjects: false
       disableAchievements: true
-      disableContact: true
+      disableContact: false
 
   # Hero
   hero:
@@ -340,8 +340,10 @@ params:
       path: "/blogs"
       count: 3
       title: Recent Posts
-      enable: 
+      enable: false
       disableFeaturedImage: false
+      disableFeaturedVideo: false
+
     socialNetworks:
       github: https://github.com/rvqzs
       linkedin: https://linkedin.com/in/robert-viquez/
@@ -352,7 +354,8 @@ params:
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: true
+    disableFeaturedImage: false
+    disableFeaturedVideo: false
 
   # Single pages like blog and post
   singlePages:

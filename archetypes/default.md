@@ -4,8 +4,8 @@ date: {{ .Date }}
 draft: true
 author:
 tags:
-image:
-video:
+# image:
+# video:
 description:
 toc: boolean
 ---

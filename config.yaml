@@ -343,7 +343,6 @@ params:
       enable: true
       disableFeaturedImage: false
       disableFeaturedVideo: false
-
     socialNetworks:
       github: https://github.com/rvqzs
       linkedin: https://linkedin.com/in/robert-viquez/

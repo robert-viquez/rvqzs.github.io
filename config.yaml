@@ -338,8 +338,8 @@ params:
 
   footer:
     recentPosts:
-      path: "/blogs"
-      count: 1
+      path: "blogs"
+      count: 3
       title: Recent Posts
       enable: true
       disableFeaturedImage: false

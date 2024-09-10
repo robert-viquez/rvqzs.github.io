@@ -218,8 +218,9 @@ params:
     default: false
     items:
       - title: "Bachelor's Degree, Systems Engineering"
-        school: "Universidad Internacional de las Américas"
-        schoolUrl: "https://uia.ac.cr/"
+        school: 
+          name: "Universidad Internacional de las Américas"
+          url: "https://uia.ac.cr/"
         # years: "2018 - 2022"
         info:
           enable: false

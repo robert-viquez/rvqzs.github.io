@@ -14,9 +14,9 @@ outputs:
 
 Paginate: 3
 enableRobotsTXT: true
-services:
-  disqus:
-    shortname: robertviquez
+# services:
+#   disqus:
+#     shortname: robertviquez
 # googleAnalytics: G-MEASUREMENT_ID
 
 markup:

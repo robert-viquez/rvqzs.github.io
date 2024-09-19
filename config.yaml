@@ -328,7 +328,7 @@ params:
         image: https://res.cloudinary.com/dqyllgamr/image/upload/v1726710789/snake4_flrjwi
         featured:
           name: Demo
-          link: https://github.com/rvqzs/snake_game
+          link: readmes/snake_game/
         badges:
           - "Python"
           - "Turtle Module"

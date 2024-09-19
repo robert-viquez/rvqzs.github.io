@@ -323,6 +323,21 @@ params:
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github #Default FontAwesome Icon
             url: https://github.com/rvqzs/rvqzs.github.io
+      - title: Snake Game
+        content: A simple implementation of the classic Snake Game using the Turtle module from Python.  
+        image: https://github.com/user-attachments/assets/4ab30a94-2f6e-4e8e-bde4-2b01dcf33582
+        featured:
+          name: Demo
+          link: https://github.com/rvqzs/snake_game
+        badges:
+          - "Python"
+          - "Turtle Module"
+          - "Game"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github #Default FontAwesome Icon
+            url: https://github.com/rvqzs/snake_game
 
   #Contact
   contact:

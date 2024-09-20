@@ -325,7 +325,7 @@ params:
             url: https://github.com/rvqzs/rvqzs.github.io
       - title: Snake Game
         content: A simple implementation of the classic Snake Game using the Turtle module from Python.  
-        image: https://res.cloudinary.com/dqyllgamr/image/upload/v1726710789/snake4_flrjwi
+        image: https://github.com/user-attachments/assets/6810b0da-d1a2-4280-95ed-1b493f7ce32e
         featured:
           name: Download
           link: https://github.com/rvqzs/snake_game/releases/download/v0.1.0/SnakeGame_setup.exe

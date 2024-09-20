@@ -328,7 +328,7 @@ params:
         image: https://res.cloudinary.com/dqyllgamr/image/upload/v1726710789/snake4_flrjwi
         featured:
           name: Download
-          link: https://github.com/rvqzs/snake_game/releases/download/v1.0.0/SnakeGame_setup.exe
+          link: https://github.com/rvqzs/snake_game/releases/download/v0.1.0/SnakeGame_setup.exe
         badges:
           - "Python"
           - "Turtle Module"

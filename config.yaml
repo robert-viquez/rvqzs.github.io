@@ -154,7 +154,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://github.com/rviquezs
+          url: https://github.com/robert-viquez
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/robert-viquez/
       # customIcons:
@@ -303,7 +303,7 @@ params:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github #Default FontAwesome Icon
-            url: https://github.com/rviquezs/cleopatraestetica/tree/master
+            url: https://github.com/robert-viquez/cleopatraestetica/tree/master
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
@@ -322,13 +322,13 @@ params:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github #Default FontAwesome Icon
-            url: https://github.com/rviquezs/rvqzs.github.io
+            url: https://github.com/robert-viquez/rvqzs.github.io
       - title: Snake Game
         content: A simple implementation of the classic Snake Game using the Turtle module from Python.  
         image: https://github.com/user-attachments/assets/6810b0da-d1a2-4280-95ed-1b493f7ce32e
         featured:
           name: Download
-          link: https://github.com/rviquezs/snake_game/releases/download/v0.1.0/SnakeGame_setup.exe
+          link: https://github.com/robert-viquez/snake_game/releases/download/v0.1.0/SnakeGame_setup.exe
         badges:
           - "Python"
           - "Turtle Module"
@@ -337,7 +337,7 @@ params:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github #Default FontAwesome Icon
-            url: https://github.com/rviquezs/snake_game
+            url: https://github.com/robert-viquez/snake_game
 
   #Contact
   contact:
@@ -362,7 +362,7 @@ params:
       disableFeaturedImage: false
       disableFeaturedVideo: false
     socialNetworks:
-      github: https://github.com/rviquezs
+      github: https://github.com/robert-viquez
       linkedin: https://linkedin.com/in/robert-viquez/
       email: mailto:robert@robertviquez.com
       # twitter: https://twitter.com

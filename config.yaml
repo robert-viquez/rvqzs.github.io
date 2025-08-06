@@ -137,7 +137,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Robert"
-    subtitle: "I tinker with software and hardware to design tech solutions."
+    subtitle: "I build smart solutions using cloud and software"
     # content: "I experiment with and learn new software and hardware technologies to shape technology to my needs."
     # content: "I explore and master software and hardware to tailor technology to my goals."
     # content: "I discover and apply tech to build solutions with software and hardware."
@@ -167,9 +167,9 @@ params:
     title: "About Me"
     image: "/images/logo1.png"
     content: |-
-      I'm constantly exploring new technologies, working on projects that allow me to learn and grow. Whether it's coding or learning and experimenting with different tools and technologies.
+      I'm passionate about building and learning. I actively explore new technologies through hands-on projects mainly on cloud technologies and web development.
 
-      Always eager to expand my knowledge and apply what I've learned to real-world situations and projects. I'm excited about the opportunities ahead to further develop my skills and make meaningful contributions.
+      driven by curiosity and the desire to apply what I learn to real-world challenges.
     skills:
       enable: true
       title: "Skills:"
@@ -187,7 +187,7 @@ params:
     enable: true
     default: true
     items:
-      - job: "USAC CIR Project Analyst"
+      - job: "Senior Financial Analyst"
         company: "3M"
         companyUrl: "https://3m.com"
         date: "January 2023 - Present"
@@ -212,7 +212,7 @@ params:
           url: "https://techcorp.com/projects"
           name: "Featured Projects"
         content: "Managed invoices, provided customer support, reconciled inventory for month-end close, resolved billing errors, and supported process improvements in the O2C department."
-        image: "https://media.licdn.com/dms/image/v2/D560BAQGJbo63_jloUw/company-logo_200_200/company-logo_200_200/0/1714136938104/world_fuel_services_logo?e=1732752000&v=beta&t=q5n_7oz5xS9wG346V0s4Ny2LZY2fbc5AVw-gtEjHaNM"
+        image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/World_Fuel_Services_logo.svg"
 
   # Education
   education:
@@ -228,7 +228,7 @@ params:
           enable: false
           content: "Studied Computer Science at State University"
         content: "A Systems Engineer integrates IT with business processes to meet company goals, focusing on managing information through software, hardware, and networks to design, develop, and maintain IT projects."
-        image: "https://media.licdn.com/dms/image/v2/C4E0BAQH2BB2DwbYPMg/company-logo_100_100/company-logo_100_100/0/1630583022941/universidad_internacional_de_las_amricas_logo?e=1732752000&v=beta&t=hpOUlBWXe_du2pEtHeU6sPDzgSNjZR2ygQNDeT76800"
+        image: "https://www.studyincr.com/wp-content/uploads/2023/03/LOGO_UIA.png"
 
   # Certifications
   certifications:
@@ -258,8 +258,8 @@ params:
           enable: false
           content: "Completed Full Stack Web Development course from Online Academy"
         content: "Introduction to MySQL, focusing on SQL syntax and practical database skills."
-        image: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1732752000&v=beta&t=KZbDvmyyDlLnwprkOa0uxDw5neMbmYP8G_8IDnHdasg"
-
+        image: "https://w7.pngwing.com/pngs/193/685/png-transparent-udemy-new-logo-tech-companies.png"
+  
   # Achievements
   achievements:
     enable: false

@@ -193,11 +193,11 @@ params:
         date: "January 2023 - Present"
         info:
           enable: false
-          content: "Working as a Software Engineer at TechCorp"
+          content: ""
         featuredLink:
           enable: false
-          url: "https://techcorp.com/projects"
-          name: "Featured Projects"
+          url: ""
+          name: ""
         content: "Developed tools and automation to improve efficiency, managed reports and compliance tasks, handled customer requests, and oversaw workflow processes in financial operations."
         image: "https://upload.wikimedia.org/wikipedia/commons/archive/1/15/20081007174540%213M_wordmark.svg"
       - job: "Financial Ops Analyst"
@@ -212,7 +212,7 @@ params:
           url: "https://techcorp.com/projects"
           name: "Featured Projects"
         content: "Managed invoices, provided customer support, reconciled inventory for month-end close, resolved billing errors, and supported process improvements in the O2C department."
-        image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/World_Fuel_Services_logo.svg"
+        image: "https://www.world-kinect.com/themes/custom/energy/images/logos/wkcorp-logo.svg"
 
   # Education
   education:
@@ -287,26 +287,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Estética Cleopatra - Landing Page
-        content: A responsive landing page for Estética Cleopatra built with Hugo and a customized hugo-profile theme. Showcases salon services and contact info. 
-        image: https://github.com/user-attachments/assets/9d47610f-ce51-407d-9adf-cae2874fc253
-        featured:
-          name: Demo
-          link: https://cleopatraestetica.com/
-        badges:
-          - "Hugo"
-          - "Cloudinary"
-          - "DecapCMS"
-          - "Netlify"
-
-        links:
-          # - icon: fa fa-envelope
-          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github #Default FontAwesome Icon
-            url: https://github.com/robert-viquez/cleopatraestetica/tree/master
-          # - icon: fab fa-twitter
-          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
       - title: Personal Portfolio Website
         content: A responsive platform to showcase my projects and skills, built with Hugo, hosted on GitHub Pages. 
         image: https://github.com/user-attachments/assets/6941110c-b084-4331-afba-b8d9e649b542

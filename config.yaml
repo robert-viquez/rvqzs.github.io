@@ -199,7 +199,7 @@ params:
           url: "https://techcorp.com/projects"
           name: "Featured Projects"
         content: "Developed tools and automation to improve efficiency, managed reports and compliance tasks, handled customer requests, and oversaw workflow processes in financial operations."
-        image: "https://www.world-kinect.com/themes/custom/energy/images/logos/wkcorp-logo.svg"
+        image: "https://upload.wikimedia.org/wikipedia/commons/archive/1/15/20081007174540%213M_wordmark.svg"
       - job: "Financial Ops Analyst"
         company: "World Fuel Services"
         companyUrl: "https://www.world-kinect.com/"

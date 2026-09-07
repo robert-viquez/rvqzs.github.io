@@ -216,7 +216,7 @@ params:
     items:
       - title: "Homelab Infrastructure"
         content: "Self-hosted lab built around Proxmox and Linux virtual machines for hands-on practice with virtualization, networking, containers, services, automation, and infrastructure operations."
-        image: "/images/homelab.png"
+        image: "https://res.cloudinary.com/dqyllgamr/image/upload/v1788824509/Screenshot_2026-09-07_at_5.41.38_PM_mnrvsi.png"
         badges:
           - "Proxmox"
           - "Linux"
@@ -225,11 +225,11 @@ params:
           - "Virtualization"
         links:
           - icon: fab fa-github
-            url: https://github.com/robert-viquez
+            url: https://github.com/robert-viquez/homelab
 
       - title: "Financial Accounting Web System"
         content: "University graduation project: a financial and accounting web application being improved with containerization, infrastructure documentation, architecture diagrams, and CI workflows."
-        image: "/images/faws.png"
+        image: "https://res.cloudinary.com/dqyllgamr/image/upload/v1788824133/Screenshot_2026-09-07_at_5.29.40_PM_ljjdlu.png"
         badges:
           - "Docker"
           - "GitHub Actions"
@@ -237,7 +237,7 @@ params:
           - "Software Engineering"
         links:
           - icon: fab fa-github
-            url: https://github.com/robert-viquez
+            url: https://github.com/robert-viquez/financial-accounting-web-system
 
       - title: "QuickTemplates"
         content: "Software project focused on reusable templates and workflow efficiency, maintained as a portfolio project with documentation and automated testing."

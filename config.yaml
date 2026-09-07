@@ -1,99 +1,53 @@
-baseURL: https://rvqzs.github.io/
+baseURL: https://robertviquez.com/
 languageCode: en-us
 title: Robert Viquez
 theme: hugo-profile
 
 outputs:
   home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
+    - HTML
+    - RSS
+    - JSON
   page:
-    - "HTML"
-    - "RSS"
+    - HTML
+    - RSS
 
-Paginate: 3
+paginate: 3
 enableRobotsTXT: true
-# services:
-#   disqus:
-#     shortname: robertviquez
-# googleAnalytics: G-MEASUREMENT_ID
 
 markup:
   goldmark:
     renderer:
       unsafe: true
 
-Menus:
+menus:
   main:
-    # - identifier: contact
-    #   name: Contact
-    #   title: Contact
-    #   url: /#contact
-    #   weight: 2
     - identifier: blog
       name: Blog
       title: Blog
       url: /blogs
       weight: 3
-    # - identifier: projects
-    #   name: Projects
-    #   title: projects
-    #   url: /#projects
-    #   weight: 2
-
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: mainMenu
-    #   name: Menu
-    #   weight: 1
-    # - identifier: dropdown1
-    #   title: about
-    #   name: About
-    #   url: /#About
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: Experience
-    #   name: Experience
-    #   url: /#Experience
-    #   parent: dropdown
-    #   weight: 2
 
 params:
   title: "Robert Viquez"
-  description: "Personal Portfolio Website where I explore and document my journey in technology, solving problems, and making computers do what I want."
-  # staticPath: "\\public\\css"  # The path to serve the static files from
+  description: "Systems engineer focused on cloud infrastructure, DevOps, Linux, automation, and building reliable systems."
   favicon: "https://res.cloudinary.com/dqyllgamr/image/upload/v1725591315/logo1-rounded_psnddy.png"
 
-  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
-  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
-  # Note the lack of "" in true, it should be of boolean type.
   useBootstrapCDN: false
-
-  # If you want to load dynamically responsive images from Cloudinary
-  # This requires your images to be uploaded + hosted on Cloudinary
-  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
   cloudinary_cloud_name: "dqyllgamr"
-
-  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
-
-  # Whether the fade animations on the home page will be enabled
   animate: true
 
   theme:
     disableThemeToggle: false
-    # defaultTheme: "dark" # light
+    defaultTheme: "dark"
 
   font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
-    textAlign: left # default: left
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
 
-  # color preference
-  # When using hex codes for colors, quotations must be used along with the # sign
   color:
     textColor: "#343a40"
     secondaryTextColor: "#6c757d"
@@ -103,48 +57,32 @@ params:
     primaryColor: "#343a40"
     secondaryColor: "#f8f9fa"
 
-  #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
-
-  # If you want to customize the menu, you can change it here
   navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "https://avatars.githubusercontent.com/u/146051750?s=400&u=1cbe75533455ac3c4484eb686647e6bf50bdda9f&v=4" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Robert Viquez" # Brand name for the brand | default is the title variable
+    align: ms-auto
+    showBrandLogo: false
+    brandName: "Robert Viquez"
     disableSearch: true
-    # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     enableSeparator: true
     menus:
       disableAbout: false
-      disableExperience: true
-      disableEducation: true
+      disableExperience: false
+      disableEducation: false
       disableProjects: false
       disableAchievements: true
       disableContact: true
 
-  # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Robert"
-    subtitle: "I build smart solutions using cloud and software"
-    # content: "I experiment with and learn new software and hardware technologies to shape technology to my needs."
-    # content: "I explore and master software and hardware to tailor technology to my goals."
-    # content: "I discover and apply tech to build solutions with software and hardware."
-    image: "https://avatars.githubusercontent.com/u/146051750?s=400&u=1cbe75533455ac3c4484eb686647e6bf50bdda9f&v=4" 
+    intro: "Hi, I'm"
+    title: "Robert Viquez"
+    subtitle: "Systems Engineer | Cloud · DevOps · Infrastructure"
+    content: "I build, automate, and operate systems using Linux, containers, cloud technologies, networking, and infrastructure tooling."
     bottomImage:
       enable: true
-    roundImage: true # Make hero image circular | default false
+    roundImage: false
     button:
       enable: false
       name: "Resume"
@@ -157,32 +95,32 @@ params:
           url: https://github.com/robert-viquez
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/robert-viquez/
-      # customIcons:
-      #   - icon: /fav.png
-      #     url: "https://example.com"
 
-  # About
   about:
     enable: true
     title: "About Me"
     image: "/images/logo1.png"
     content: |-
-      I'm passionate about building and learning. I actively explore new technologies through hands-on projects mainly on cloud technologies and web development.
+      I'm a Systems Engineering graduate focused on cloud infrastructure, DevOps, Linux, networking, and automation.
 
-      driven by curiosity and the desire to apply what I learn to real-world challenges.
+      I learn by building and operating real systems. My projects include a Proxmox-based homelab, Linux virtual machines, containerized applications, CI/CD workflows, and software projects that help me deepen my understanding of how applications and infrastructure work together.
+
+      I'm currently expanding my AWS knowledge and preparing for an AWS certification while pursuing opportunities in Cloud, DevOps, Infrastructure, and related engineering roles.
     skills:
       enable: true
-      title: "Skills:"
+      title: "Core Technologies:"
       items:
-      - <img width="24" height="24" src="https://img.icons8.com/color/24/python--v1.png" alt="python--v1"/> Python
-      - <i class="fab fa-html5" style="color:#E34F26;"></i> HTML | <i class="fab fa-css3-alt" style="color:#1572B6;"></i> CSS | <i class="fab fa-js" style="color:#F7DF1E;"></i> JS
-      - <img width="24" height="24" src="https://img.icons8.com/color/24/my-sql.png" alt="my-sql"/> MySQL      
-      - <img width="24" height="24" src="https://img.icons8.com/color/24/git.png" alt="git"/> Git
-      - <img width="24" height="24" src="https://img.icons8.com/color/24/docker.png" alt="docker"/> Docker
-      - <img width="22" height="22" src="https://img.icons8.com/external-those-icons-flat-those-icons/22/external-Linux-logos-and-brands-those-icons-flat-those-icons.png" alt="external-Linux-logos-and-brands-those-icons-flat-those-icons"/> Linux
-      - <img width="22" height="22" src="fav.png" alt="Hugo"/> HUGO
-      
-  # Experience
+        - '<i class="fab fa-linux"></i> Linux'
+        - '<i class="fab fa-docker"></i> Docker & Docker Compose'
+        - '<i class="fab fa-aws"></i> AWS (studying for certification)'
+        - '<i class="fab fa-git-alt"></i> Git & GitHub'
+        - '<i class="fab fa-python"></i> Python'
+        - '<i class="fas fa-network-wired"></i> Networking'
+        - '<i class="fas fa-server"></i> Proxmox & Virtual Machines'
+        - '<i class="fas fa-terminal"></i> Bash / CLI'
+        - '<i class="fas fa-code-branch"></i> GitHub Actions / CI-CD'
+        - '<i class="fas fa-database"></i> MySQL'
+
   experience:
     enable: true
     default: true
@@ -198,54 +136,62 @@ params:
           enable: false
           url: ""
           name: ""
-        content: "Developed tools and automation to improve efficiency, managed reports and compliance tasks, handled customer requests, and oversaw workflow processes in financial operations."
+        content: "Build automation and process-improvement solutions for financial operations, support reporting and compliance workflows, analyze exceptions, and work with business processes in a multinational environment."
         image: "https://upload.wikimedia.org/wikipedia/commons/archive/1/15/20081007174540%213M_wordmark.svg"
-      - job: "Financial Ops Analyst"
+
+      - job: "Financial Operations Analyst"
         company: "World Fuel Services"
         companyUrl: "https://www.world-kinect.com/"
         date: "June 2021 - November 2022"
         info:
           enable: false
-          content: "Working as a Software Engineer at TechCorp"
+          content: ""
         featuredLink:
           enable: false
-          url: "https://techcorp.com/projects"
-          name: "Featured Projects"
-        content: "Managed invoices, provided customer support, reconciled inventory for month-end close, resolved billing errors, and supported process improvements in the O2C department."
+          url: ""
+          name: ""
+        content: "Supported order-to-cash operations, invoice processing, reconciliations, customer requests, month-end activities, billing-error resolution, and process improvements."
         image: "https://www.world-kinect.com/themes/custom/energy/images/logos/wkcorp-logo.svg"
 
-  # Education
   education:
     enable: true
     default: false
     items:
-      - title: "Bachelor's Degree, Systems Engineering"
+      - title: "Bachelor's Degree in Systems Engineering"
         school:
-        schoolName: Universidad Internacional de las Américas
-        schoolURL: https://uia.ac.cr/
-        # years: "2018 - 2022"
+        schoolName: "Universidad Internacional de las Américas"
+        schoolURL: "https://uia.ac.cr/"
+        years: "Completed 2026 · Graduation November 2026"
         info:
           enable: false
-          content: "Studied Computer Science at State University"
-        content: "A Systems Engineer integrates IT with business processes to meet company goals, focusing on managing information through software, hardware, and networks to design, develop, and maintain IT projects."
+          content: ""
+        content: "Completed the Systems Engineering degree requirements, with coursework and projects spanning software development, databases, networking, systems analysis, and IT infrastructure."
         image: "https://www.studyincr.com/wp-content/uploads/2023/03/LOGO_UIA.png"
 
-  # Certifications
   certifications:
     enable: true
     default: false
     items:
+      - title: "AWS Certification"
+        certification: "Amazon Web Services"
+        certificationUrl: "https://aws.amazon.com/certification/"
+        date: "In progress"
+        info:
+          enable: false
+          content: ""
+        content: "Currently studying AWS fundamentals and cloud infrastructure concepts in preparation for certification."
+        image: "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
+
       - title: "Scrum Fundamentals Certified (SFC™)"
-        certification: "CertiProf"
-        certificationUrl: "https://www.credly.com/badges/9490616b-44bf-4083-bfcd-1bc93bb2b6a4/public_urlhttps://datainstitute.com"
+        certification: "SCRUMstudy"
+        certificationUrl: "https://www.credly.com/badges/9490616b-44bf-4083-bfcd-1bc93bb2b6a4/public_url"
         date: "2024"
         info:
           enable: false
-          content: "Earned Certified Data Scientist certification from Data Institute"
-        content: "SFC™ holders have foundational Scrum skills and understand its core principles."
+          content: ""
+        content: "Foundational knowledge of Scrum principles, roles, events, and artifacts."
         image: "https://images.credly.com/size/340x340/images/4e3d6f9f-55d7-4ea7-b0e6-f4d4ff543e22/image.png"
 
-  # Courses
   courses:
     enable: true
     default: false
@@ -256,88 +202,76 @@ params:
         date: "2024"
         info:
           enable: false
-          content: "Completed Full Stack Web Development course from Online Academy"
-        content: "Introduction to MySQL, focusing on SQL syntax and practical database skills."
+          content: ""
+        content: "Practical SQL and relational database fundamentals using MySQL."
         image: "https://w7.pngwing.com/pngs/193/685/png-transparent-udemy-new-logo-tech-companies.png"
-  
-  # Achievements
+
   achievements:
     enable: false
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+    items: []
 
-  # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Projects"
     items:
-      - title: Personal Portfolio Website
-        content: A responsive platform to showcase my projects and skills, built with Hugo, hosted on GitHub Pages. 
-        image: https://github.com/user-attachments/assets/6941110c-b084-4331-afba-b8d9e649b542
-        featured:
-          name: You're already here
-          link: https://robertviquez.com/#projects
+      - title: "Homelab Infrastructure"
+        content: "Self-hosted lab built around Proxmox and Linux virtual machines for hands-on practice with virtualization, networking, containers, services, automation, and infrastructure operations."
+        image: "/images/homelab.png"
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-          - "GitHub Pages"
+          - "Proxmox"
+          - "Linux"
+          - "Docker"
+          - "Networking"
+          - "Virtualization"
         links:
-          # - icon: fa fa-envelope
-          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github #Default FontAwesome Icon
-            url: https://github.com/robert-viquez/rvqzs.github.io
-      - title: Snake Game
-        content: A simple implementation of the classic Snake Game using the Turtle module from Python.  
-        image: https://github.com/user-attachments/assets/6810b0da-d1a2-4280-95ed-1b493f7ce32e
-        featured:
-          name: Download
-          link: https://github.com/robert-viquez/snake_game/releases/download/v0.1.0/SnakeGame_setup.exe
+          - icon: fab fa-github
+            url: https://github.com/robert-viquez
+
+      - title: "Financial Accounting Web System"
+        content: "University graduation project: a financial and accounting web application being improved with containerization, infrastructure documentation, architecture diagrams, and CI workflows."
+        image: "/images/faws.png"
+        badges:
+          - "Docker"
+          - "GitHub Actions"
+          - "MySQL"
+          - "Software Engineering"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/robert-viquez
+
+      - title: "QuickTemplates"
+        content: "Software project focused on reusable templates and workflow efficiency, maintained as a portfolio project with documentation and automated testing."
+        image: "/images/quicktemplates.png"
         badges:
           - "Python"
-          - "Turtle Module"
-          - "Game"
+          - "Testing"
+          - "Git"
         links:
-          # - icon: fa fa-envelope
-          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github #Default FontAwesome Icon
-            url: https://github.com/robert-viquez/snake_game
+          - icon: fab fa-github
+            url: https://github.com/robert-viquez
 
-  #Contact
+      - title: "Personal Portfolio"
+        content: "Personal technical portfolio built with Hugo and deployed through GitHub Pages to document projects, infrastructure work, and technical learning."
+        image: "https://github.com/user-attachments/assets/6941110c-b084-4331-afba-b8d9e649b542"
+        featured:
+          name: "View site"
+          link: https://robertviquez.com/
+        badges:
+          - "Hugo"
+          - "GitHub Pages"
+          - "Git"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/robert-viquez/rvqzs.github.io
+
   contact:
     enable: false
-    # title: "Reach out"
-    # content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-    # btnName: Email me
-    # btnLink: mailto:hello@robertviquez.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
 
   footer:
     recentPosts:
       path: "blogs"
       count: 3
-      title: Recent Posts
+      title: "Recent Posts"
       enable: true
       disableFeaturedImage: false
       disableFeaturedVideo: false
@@ -345,16 +279,11 @@ params:
       github: https://github.com/robert-viquez
       linkedin: https://linkedin.com/in/robert-viquez/
       email: mailto:robert@robertviquez.com
-      # twitter: https://twitter.com
-      # instagram: https://instagram.com
-      # facebook: https://facebook.com
 
-  # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
     disableFeaturedVideo: false
 
-  # Single pages like blog and post
   singlePages:
     socialShare: false
     readTime:
@@ -365,7 +294,6 @@ params:
     tags:
       openInNewTab: true
 
-  # For translations
   terms:
     read: "Read"
     toc: "Contents"
@@ -377,6 +305,3 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
-
-  #customScripts: -| # You can add custom scripts which will be added before </body> tag
-  #  <script type="text/javascript"><!-- any script here --></script>
